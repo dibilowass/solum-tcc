@@ -1,0 +1,283 @@
+
+.container-display-produto{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin: 5%;
+  background-color: whitesmoke;
+}
+
+
+.container-display-fotos-produto{
+  flex: 2;
+  margin: 1%;
+
+  height: min-content;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+/* .container-display-fotos-produto img{
+  width: fit-content;
+  height: fit-content;
+} */
+
+
+.container-display-infos-produto{
+  flex: 2;
+  margin: 1%;
+  contain: content;
+  
+padding-left: 3%;
+}
+
+/* .produto-foto{
+
+} */
+
+.produto-foto-destaque{
+  /* border: 1px solid black; */
+  
+  width: 300px;
+  height: auto;
+  justify-self: center;
+  align-items: center;
+  padding: 5px;
+  margin: 2px;
+  overflow: hidden;
+}
+
+
+@media (max-width: 768px) {
+  .produto-foto-destaque {
+    flex: 1;
+  justify-self: center;
+  align-items: center;
+  padding: 5px;
+  margin: 2px;
+  overflow: hidden;
+
+  }
+}
+
+.produto-foto-frame {
+
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  
+flex-wrap: wrap;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  flex-direction: column;
+}
+
+.produto-foto-frame img {
+  
+  height: 15vh;
+  width: auto;
+  align-items: center;
+  padding: 5px;
+  margin: 2px;
+  overflow: hidden;
+
+
+}
+
+.produto-foto-frame img:hover {
+  transform: scale(1.5);
+  background-color: white;
+  cursor: pointer;
+
+
+
+
+}
+
+
+@media (max-width: 768px) {
+  .produto-foto-frame {
+     display: none;
+
+  }
+}
+
+
+.produto-display-nome{
+  font-family: "Zain", sans-serif;
+  
+  font-style: normal;
+
+font-weight: 400;
+  font-optical-sizing: auto;
+color:#ff6b00; 
+
+font-size: 6vh;
+
+}
+
+.produto-display-preco{
+  font-family: "Zain", sans-serif;
+  
+  font-style: normal;
+
+font-weight: 400;
+  font-optical-sizing: auto;
+color:#304269;
+
+font-size: 3vh;
+
+
+}
+
+
+.container-display-produto-loja{
+
+  flex:1;
+  max-height: 200px;
+  background-color: whitesmoke;
+  margin: 5%;
+}
+
+
+.display-produto-botao-carrinho{
+  margin-top: 5%;
+border: 1px solid #ff6b00;
+  color: white;
+  background-color: #ff6b00;
+}
+
+.display-produto-botao-fundo{
+ 
+
+  
+  background-color: #ff6a0000;
+}
+
+
+/* 
+.display-produto-botao-favorito{
+  margin-top: 5%;
+border: 1px solid #304269;
+  color: white;
+  background-color: #304269;
+}
+
+.display-produto-botao-carrinho :hover{
+  margin-top: 5%;
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+  background-color: white;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media (max-width: 768px) {
+  .infos2 {
+     display: none;
+
+  }
+}
+
+
+
+
+
+
+.infos {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+
+
+}
+
+.infos1 {
+  flex: 1;
+  
+
+}
+
+.infos2 {
+  flex: 1;
+  ;
+}
+
+
+
+.nome {
+  
+  font-family: "Zain", sans-serif;
+
+
+font-weight: 600;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 3.5vh;
+  margin: 5%;
+}
+
+.descricao {
+
+  font-family: 'Oswald', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 2.5vh;
+  font-style: normal;
+  margin: 5%;
+}
+
+.promo-info {
+  font-family: "Bokor", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  rotate: 20deg;
+  padding-left: 2vw;
+  color: #145671;
+  font-optical-sizing: auto;
+  text-align: center;
+
+  font-size: 1.5vw;
+  border-radius: 0px;
+}
+
+.novidade-info {
+  font-family: "Bokor", system-ui;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.5vw;
+  color: #135f33;
+  rotate: 20deg;
+  text-align: center;
+
+  padding-left: 1vw;
+
+
+
+
+  border-radius: 0px;
+
+} */
+
+
+
