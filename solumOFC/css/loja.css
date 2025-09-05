@@ -1,0 +1,225 @@
+.containerLojas {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 4.0rem;
+    color: #2b406d;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Zain';
+}
+
+.titulo-descricao{
+    text-align: center; 
+    color: #6c8eb1; 
+    margin-bottom: 40px; 
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-family: 'Zain';
+}
+
+.stores-grid {
+    font-family: 'Zain';
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.store-card {
+    background: white;
+    /* border-radius: 8px;; */
+    overflow: hidden;
+    box-shadow: 10;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.store-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.store-header {
+    position: relative;
+    height: 150px;
+    overflow: hidden;
+}
+
+.store-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.store-info {
+    padding: 25px;
+}
+
+.store-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #304269;
+    margin-bottom: 10px;
+}
+
+.store-rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.store-preco {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.store-description {
+    color: black;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.btn-secondary{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    /* border-radius: 8px; */
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.btn-secondary {
+    background: #ff6b00;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: #db5c02;
+    transform: translateY(-1px);
+}
+
+.container-perfil-loja {
+    font-family: 'Zain';
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    /* border-radius: 10px; */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.header-loja {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-loja img {
+    border-radius: 8px;
+    max-width: 150px;
+}
+
+.info-loja {
+    flex: 1;
+}
+
+.info-loja h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.info-loja p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.buttons button {
+    padding: 6px 14px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-follow {
+    background: #333;
+    color: white;
+}
+
+.btn-chat {
+    background: #ff5722;
+    color: white;
+}
+
+.stats {
+    margin-top: 15px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.stats div {
+    font-size: 14px;
+}
+
+.menu {
+    margin-top: 20px;
+    border-bottom: 2px solid #f5f5f5;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+}
+
+.menu a.active {
+    color: #ff5722;
+    border-bottom: 2px solid #ff5722;
+    padding-bottom: 5px;
+}
+
+.cupom {
+    margin: 25px 0;
+    padding: 15px;
+    border: 1px dashed #ff5722;
+    border-radius: 6px;
+    background: #fff5f0;
+}
+
+.produtos {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    width: 180px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+.produto img {
+    max-width: 100%;
+    border-radius: 6px;
+}
